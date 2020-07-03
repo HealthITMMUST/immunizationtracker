@@ -1,5 +1,5 @@
 # immunizationtracker
-## This project aims at tracking immunization defaulters usinf Kakamega county as 
+## This project aims at tracking immunization defaulters at Kakamega County. 
 
 ![HealthIT Hackathon Day 1](https://user-images.githubusercontent.com/67046382/86454753-650e5100-bd28-11ea-8855-5a0dffb62b0a.png)
 

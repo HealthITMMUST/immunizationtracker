@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHILD IMMUNIZATION VERIFIER</title>
+
+    <link rel="icon" href="F:\VirtualHealthIT2020/VACCINE.jpeg">
+    <link rel="stylesheet" href="F:\VirtualHealthIT2020/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body> 
+<div class="container">
+<div class="panel panel-primary">
+<div class="header">
+            <div class="templogo">CHILD IMMUNIZATION
+            </div>
+            <span class="verifier">VERIFIER</span>
+
+
+            <div class="side">(CIV)</div>
+        </div>
+        <form action="index.php" method="POST">
+        <div id="search-container">
+          <label for="search" class="search">Search</label>
+                <input type="text" placeholder="Enter Child's id">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            
+        </div>
+        <section class="images">
+        <div class="sideimage">
+        <figure>
+                    <img src="F:\VirtualHealthIT2020/vaccine.jpeg" alt="" class="img">
+                    <figcaption>A child receiving vaccine</figcaption>
+                </figure>
+                <figure>
+                    <img src=" F:\VirtualHealthIT2020/immunize.jpeg" alt="">
+                    <figcaption>A mother taking her baby home happily after vaccination</figcaption>
+                </figure>
+            
+        </div>
+            
+        </section>
+        <section>
+         <h1> IMMUNISATION REGISTER FOR CHILDREN</h1>
+         <div>
+         <label for="date">Date:</label>
+                <input type="text" id="date" name="date"><br>
+                <div>
+                <h3>Demographics</h3>
+                    <label for="CID">Child ID:</label>
+                    <input type="text" id="CID" name="CID"><br>
+                    <label for="Cname">Child name:</label>
+                    <input type="text" id="Cname" name="Cname"><br>
+                    <label for="dOB">Date of Birth:</label>
+                    <input type="text" id="dfs" name="dateob"><br>
+                    <label for="date">Date First Seen:</label>
+                    <input type="text" id="date" name="datefs"><br>
+                    <label for="sex">Gender:</label><br>
+                    <select id="sex" name="sex">
+                            <option value="">...</option>
+                             <option name="sex" value="M">Male</option>
+                             <option name="sex" value="F">Female</option>
+                        
+                    </select>
+                    <br>
+                    <label for="mID">Mother's ID:</label>
+                    <input type="text" id="mID" name="mID"><br>
+                    <label for="mname">Mother's name:</label>
+                    <input type="text" id="mname" name="mname"><br>
+                    <label for="fID">Father's ID:</label>
+                    <input type="text" id="fID" name="fID"><br>
+                    <label for="fname">Father's name:</label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="location">Location</label>
+                    <select id="location" name="location">
+                    <option value="">...</option>
+                             <option name="location value="l">Lurambi</option>
+                             <option name="location value="m">Milimani</option>
+                             <option name="location value="n">Navakholo</option>
+                                <option name="location value="s">Shinyalu</option>
+                        
+                    </select> <br>
+                    <label for="add">Address:</label><br>
+                    <input type="text" id="add" name="add"><br>
+                    
+                </div>
+             
+         </div>
+            
+        </section>
+        <div class="third-column">
+        <h3>Immunization History</h3>
+        <ol>
+                <li><input type="checkbox" id="BCG" name="BCG">
+                    <label for="BCG"> BCG</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="datebcg" ><br>
+                <li><input type="checkbox" id=re name="re">
+                    <label for="re"> Revaccination</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="datere"><br>
+                <li><input type="checkbox" id="pd" name="pd">
+                    <label for="pd">Polio Birth Dose</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="datepd"><br>
+                <li><input type="checkbox" id="p1" name="p1">
+                    <label for="p1">1st Polio</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="datep1"><br>
+                <li><input type="checkbox" id="p2" name="p2">
+                    <label for="p2">2nd Polio</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="datep2"><br>
+                <li><input type="checkbox" id="p3" name="p3">
+                    <label for="p3">3rd Polio</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="datep3"><br>
+                <li><input type="checkbox" id="dpt" name="dbt">
+                    <label for="dpt">Dpt/Hep.b/Hib1</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="datedpt"><br>
+                <li><input type="checkbox" id="Hep" name="Hep">
+                    <label for="Hep">Dpt/Hep.b/Hib 2</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="dateHep"><br>
+                <li><input type="checkbox" id="hib" name="hib">
+                    <label for="hib">Dpt/Hep.b/Hib 3</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="datehip"><br>
+                <li><input type="checkbox" id="ms" name="ms">
+                    <label for="ms">Measles</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="datems"><br>
+                <li><input type="checkbox" id="yf" name="yf">
+                    <label for="yf">Yellow Fever</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="dateyf"><br>
+                <li><input type="checkbox" id="vit" name="vit">
+                    <label for="vit">Vitamin A</label></li>
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="datevit"><br>
+                <input type="submit" value="submit" class="submit">
+
+            </ol>
+            
+        </div>
+
+            
+        </form>
+    
+</div>
+    
+</div>
+
+    
+</body>
+
+
+</html>
